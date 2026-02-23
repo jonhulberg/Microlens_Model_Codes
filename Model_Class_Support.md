@@ -1,4 +1,5 @@
 VBM* = VBMicrolensing for model generation and RTModel for Fitting
+
 MM = MulensModel
 
 | Feature                                                | BAGLE | VBM* | MM | pyLIMA |
