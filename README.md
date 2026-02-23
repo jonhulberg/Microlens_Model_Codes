@@ -9,7 +9,7 @@ community editable, and can be continuously updated.
 * Table of Model Fitting Algorithms
 
 You can find additional information on other websites:
-* [microlensing-source]([https://pages.github.com/](https://www.microlensing-source.org/software/) List of Software
+* [microlensing-source](https://pages.github.com/](https://www.microlensing-source.org/software/) List of Software
 * [RGES PIT Website](https://rges-pit.org/tools/) List of Tools
 * [LSST TVSS](https://github.com/LSST-TVSSC/microlensing/blob/main/group_4_ampel_filter/microlensing_simulations_catalogue.md) List of Tools
 
