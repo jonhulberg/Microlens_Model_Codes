@@ -14,9 +14,9 @@ The table below contains the input time system, how time is handled for parallax
 | microlux       | ... | ... | ...
 | microjax       | ... | ... | Heliocentric
 
-When retrieving ephemeris, BAGLE, MulensModel and pyLIMA obtain the Solar System Barycenter (SSB) position with the Astropy function `get_body_barycentric()`, which depends on the time scale (tipically BJD_TDB).
-The user has to provide BJD times (or at least HJD) for the parallax calculations.
-VBM instead uses precomputed ephemeris tables from JPL Horizons (DE441).
+BAGLE, MulensModel and pyLIMA retrieve the Earth position from the Solar System Barycenter (SSB) with the Astropy function `get_body_barycentric()`. It depends on the time scale (tipically BJD_TDB) provided by the user, which is used to compute the parallax displacement.
+VBMicrolensing instead uses precomputed ephemeris tables from JPL Horizons (DE441).
+The different kernel compared to the other packages (DE441 vs. DE430) produces a difference in Earth position of ~100 km, which is not responsible for the parallax difference reported in Lu et al. ([2025](https://ui.adsabs.harvard.edu/abs/2025arXiv251203364L/abstract)).
 
 Regarding microlensing surveys, OGLE data are typically provided in Julian Date (JD), while MOA and KMTNet commonly use Heliocentric Julian Date (HJD).
 *This should be verified and extended to other surveys and space missions.*
