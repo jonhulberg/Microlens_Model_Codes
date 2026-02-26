@@ -16,8 +16,9 @@ BSBL = Binary Source, Binary Lens (2S2L)
 | Parallax                                               | Y     | Y    | Y  | Y      |         | Y          |
 | Static Binary Lenses and Sources                       | Y     | Y    | Y  | Y      |         | Y          |
 | Orbital Motion Models - Binary Lens:                   |       |      |    |        |         | N          |
-|     Eccentric Keplerian                                | Y     | Y    | Y  | Y      |         |            |
-|     Linear/Accelerated Orbital Approximations          | Y     | N    | Y  | N      |         |            |
+|     Eccentric Keplerian                                | Y     | Y    | Y  | Y      |         | N          |
+|     Circular                                           | Y     | Y    | Y  | Y      |         | Y          |
+|     Linear/Accelerated Orbital Approximations          | Y     | N    | Y  | N      |         | N          |
 | Orbital Motion Models - Binary Source:                 |       |      |    |        |         |            |
 | Keplerian Binary Source Orbital Motion                 | Y     | N    | Y  | N      |         | N          |
 | Circular Binary Source Orbital Motion                  | Y     | Y    | Y  | Y      |         | Y          |
